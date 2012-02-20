@@ -1,6 +1,6 @@
 # Some requires
-require 'bundler'
-Bundler.setup
+#require 'bundler'
+#Bundler.setup
 require 'capybara/dsl'
 require 'capybara/mechanize'
 
