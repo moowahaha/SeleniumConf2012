@@ -5,7 +5,14 @@ Welcome to Etsy's 2012 Selenium Conference workshop! This repository contains th
 
 This repository can be reached by visiting **[etsy.me/selenium2012](http://etsy.me/selenium2012)**.
 
-## Dependencies (Ruby and Firefox)
+## Setup
+
+Perform the following steps to make sure you are all setup and ready for the workshop. Not to worry if you get stuck,
+we can assist you or pair you up with somebody.
+
+The more that can be done before the workshop, the more time we'll have to play.
+
+### Ruby & Firefox
 
 You should make sure the following dependencies are installed before the session begins...
 
@@ -13,26 +20,27 @@ You should make sure the following dependencies are installed before the session
 * [Firefox](http://www.mozilla.org/en-US/firefox/new/) 3.6 or above.
 
 To check whether Ruby is installed, try `ruby -v`. Versions newer than 1.8.7 should work fine, as should 1.8.6.
+If it is installed, you can skip to **Libraries & Verification**.
 
-### Installing Ruby for Linux
+#### Installing Ruby for Linux
 
 Either...
 
 * `apt-get install ruby`
 * `yum install ruby`.
 
-### Installing Ruby for OS X
+#### Installing Ruby for OS X
 
 Either...
 
 * `brew install ruby`.
 * `port install ruby`
 
-### Installing Ruby for Windows
+#### Installing Ruby for Windows
 
 Click [here](http://rubyforge.org/frs/download.php/75851/rubyinstaller-1.8.7-p358.exe) to begin downloading the Ruby installer.
 
-## Setup
+### Libraries & Verification
 
 Once Ruby and Firefox are installed, perform the following steps to install the Ruby libraries...
 
