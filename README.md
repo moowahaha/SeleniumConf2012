@@ -33,7 +33,7 @@ To setup this workshop...
 
 * Either clone this repository with [Git](http://git-scm.com/download) (`git clone git@github.com:moowahaha/SeleniumConf2012.git`)
   or download the latest zipped version from [here](https://github.com/moowahaha/SeleniumConf2012/zipball/master).
-* Run `sh setup.sh` (Linux & OS X) or `setup.bat` (Windows) to install all the dependencies (or run the commands listed in the respecitve file).
+* Run `sh setup.sh` (Linux & OS X) or `setup.bat` (Windows) to install the required Ruby libraries (or run the commands listed in the respecitve file).
 * Try running the (currently failing) tests: `rspec`.
 
 ## How to run...
