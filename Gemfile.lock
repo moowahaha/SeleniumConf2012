@@ -15,7 +15,7 @@ GEM
       ffi (~> 1.0.6)
     diff-lcs (1.1.3)
     ffi (1.0.9)
-    json (1.6.5)
+    json_pure (1.6.5)
     mechanize (1.0.0)
       nokogiri (>= 1.2.1)
     mime-types (1.17.2)
@@ -48,5 +48,5 @@ DEPENDENCIES
   bbc-capybara-mechanize
   capybara
   ffi (= 1.0.9)
-  json
+  json_pure
   rspec
