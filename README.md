@@ -1,5 +1,10 @@
 # Selenium Conference Workshop
 
+Welcome to Etsy's 2012 Selenium Conference workshop! This repository contains the slides, setup and
+[RSpec](http://rspec.info/documentation/) skeleton for writing some automated tests against the Etsy website.
+
+This repository can be reached by visiting **[etsy.me/selenium2012](http://etsy.me/selenium2012)**.
+
 ## Dependencies
 
 You should make sure the following dependencies are installed before the session begins...
