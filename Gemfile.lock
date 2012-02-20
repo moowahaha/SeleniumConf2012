@@ -1,0 +1,63 @@
+GIT
+  remote: git://github.com/pmahoney/capybara-mechanize.git
+  revision: da2b0fe2cec7039e1ecab19cfbd8831e3c59f260
+  tag: v0.3.0.rc3
+  specs:
+    capybara-mechanize (0.3.0.rc3)
+      capybara (~> 1.1.0)
+      mechanize (~> 2.0.0)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    capybara (1.1.2)
+      mime-types (>= 1.16)
+      nokogiri (>= 1.3.3)
+      rack (>= 1.0.0)
+      rack-test (>= 0.5.4)
+      selenium-webdriver (~> 2.0)
+      xpath (~> 0.1.4)
+    childprocess (0.3.1)
+      ffi (~> 1.0.6)
+    diff-lcs (1.1.3)
+    ffi (1.0.11)
+    json (1.6.5)
+    mechanize (2.0.1)
+      net-http-digest_auth (~> 1.1, >= 1.1.1)
+      net-http-persistent (~> 1.8)
+      nokogiri (~> 1.4)
+      webrobots (~> 0.0, >= 0.0.9)
+    mime-types (1.17.2)
+    multi_json (1.0.4)
+    net-http-digest_auth (1.2)
+    net-http-persistent (1.9)
+    nokogiri (1.5.0)
+    rack (1.4.1)
+    rack-test (0.6.1)
+      rack (>= 1.0)
+    rspec (2.8.0)
+      rspec-core (~> 2.8.0)
+      rspec-expectations (~> 2.8.0)
+      rspec-mocks (~> 2.8.0)
+    rspec-core (2.8.0)
+    rspec-expectations (2.8.0)
+      diff-lcs (~> 1.1.2)
+    rspec-mocks (2.8.0)
+    rubyzip (0.9.6.1)
+    selenium-webdriver (2.19.0)
+      childprocess (>= 0.2.5)
+      ffi (~> 1.0.9)
+      multi_json (~> 1.0.4)
+      rubyzip
+    webrobots (0.0.13)
+    xpath (0.1.4)
+      nokogiri (~> 1.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  capybara
+  capybara-mechanize!
+  json
+  rspec
