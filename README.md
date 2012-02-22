@@ -13,7 +13,7 @@ we can assist you or pair you up with somebody.
 
 The more that can be done before the workshop, the more time we'll have to play.
 
-### Ruby & Firefox
+### Ruby & Firefo
 
 You should make sure the following dependencies are installed before the session begins...
 
