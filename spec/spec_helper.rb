@@ -4,8 +4,10 @@ require 'capybara/mechanize'
 
 # Capybara default driver - Selenium. Uses a browser but a bit slow.
 Capybara.default_driver = :selenium
-# All "visits" are relative to this URL.
+# All "visits" are relative to this URL unless prefixed with "http(s)://".
 Capybara.app_host = 'http://www.etsy.com'
+# Increased timeout...
+Capybara.default_wait_time = 20
 
 RSpec.configure do |config|
   # Make the Capybara methods available to our tests.
