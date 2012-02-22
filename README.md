@@ -45,7 +45,7 @@ Make sure that you select "Add Ruby executables to your PATH" when choosing the 
 
 ### Libraries & Verification
 
-Once Ruby and Firefox are installed, perform the following steps to install the Ruby libraries...
+Once Ruby and Firefox are installed, perform the following steps to install the Ruby libraries and tests...
 
 * Either clone this repository with [Git](http://git-scm.com/download) (`git clone git://github.com/moowahaha/SeleniumConf2012.git`)
   or download the latest zipped version from [here](https://github.com/moowahaha/SeleniumConf2012/zipball/master).
@@ -57,8 +57,8 @@ Once Ruby and Firefox are installed, perform the following steps to install the 
 Commands should be prefixed with `bundle e`. This ensures the libraries installed in the previous setup are used.
 
 * To run all tests: `bundle e rspec`.
-* To run all tests from a single file: `bundle e rspec spec/find_listing_spec.rb`.
-* To run a single test, specify the file and line number, add ':number' to the end of the filename: `bundle e rspec spec/find_listing_spec.rb:7`.
+* To run all tests from a single file: `bundle e rspec spec/example_spec.rb`.
+* To run a single test, specify the file and line number, add ':*number*' to the end of the filename: `bundle e rspec spec/example_spec.rb:11`.
 
 ## Some links!
 
