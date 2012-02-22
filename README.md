@@ -41,11 +41,13 @@ Either...
 
 Click [here](http://rubyforge.org/frs/download.php/75851/rubyinstaller-1.8.7-p358.exe) to begin downloading the Ruby installer.
 
+Make sure that you select "Add Ruby executables to your PATH" when choosing the destination path.
+
 ### Libraries & Verification
 
 Once Ruby and Firefox are installed, perform the following steps to install the Ruby libraries...
 
-* Either clone this repository with [Git](http://git-scm.com/download) (`git clone git@github.com:moowahaha/SeleniumConf2012.git`)
+* Either clone this repository with [Git](http://git-scm.com/download) (`git clone git://github.com/moowahaha/SeleniumConf2012.git`)
   or download the latest zipped version from [here](https://github.com/moowahaha/SeleniumConf2012/zipball/master).
 * Run `sh setup.sh` (Linux & OS X) or `setup.bat` (Windows) to install the required Ruby libraries (or run the commands listed in the respecitve file).
 * Try running the (currently failing) tests: `bundle e rspec`.
@@ -55,8 +57,8 @@ Once Ruby and Firefox are installed, perform the following steps to install the 
 Commands should be prefixed with `bundle e`. This ensures the libraries installed in the previous setup are used.
 
 * To run all tests: `bundle e rspec`.
-* To run all tests from a single file: `bundle e rspec spec/navigation_spec.rb`.
-* To run a single test, specify the file and line number, add ':number' to the end of the filename: `bundle e rspec spec/navigation_spec.rb:7`.
+* To run all tests from a single file: `bundle e rspec spec/find_listing_spec.rb`.
+* To run a single test, specify the file and line number, add ':number' to the end of the filename: `bundle e rspec spec/find_listing_spec.rb:7`.
 
 ## Some links!
 
