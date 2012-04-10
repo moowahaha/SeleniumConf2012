@@ -10,6 +10,6 @@ describe "John's movie reviews'" do
 
   it 'should have reactions to the 2002 oscars' do
     click_link 'Reactions to the 2002 oscars.'
-    page.should have_content('Out of the five, I liked Lord of the Rings the most')
+    page.has_content?('Out of the five, I liked Lord of the Rings the most').should == true
   end
 end
