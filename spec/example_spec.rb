@@ -1,15 +1,18 @@
-#describe "John's movie reviews'", :mechanize => true do
-describe "John's movie reviews'" do
+#describe 'Dcyder', :mechanize => true do
+describe 'Dcyder' do
   before do
-    visit 'http://www.angelfire.com/movies/johnswebpage/'
+    visit 'http://www.dcyder.com'
   end
 
-  it 'should have a heading' do
-    find('h1').should have_content("John's Movie Reviews Page")
+  it 'should have a header' do
+    find('#header').has_content?('Welcome to Dcyder!').should == true
   end
 
-  it 'should have reactions to the 2002 oscars' do
-    click_link 'Reactions to the 2002 oscars.'
-    page.has_content?('Out of the five, I liked Lord of the Rings the most').should == true
+  # ... This is actually a bad test! It could fail incorrectly :S
+  it 'should some content relating to boyfriends' do
+    within '#popTags' do
+      click_link 'boyfriend'
+    end
+    find('#viewAll').has_content?('boyfriend').should == true
   end
 end

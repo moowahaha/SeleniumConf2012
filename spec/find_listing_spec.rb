@@ -5,9 +5,9 @@
 # find('.css #string').should have_content('abc')
 # page.should have_content('abc')
 
-describe 'Navigating' do
+describe 'Searching' do
   before do
-    visit '/' # This is relative to Capybara.app_host (set in spec_helper.rb as "http://www.etsy.com")
+    visit 'some url!'
   end
 
   it 'should blah blah blah' do
